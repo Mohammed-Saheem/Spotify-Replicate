@@ -17,10 +17,11 @@ body{
     margin-right:0.5rem ;
 }
 .main-content{
-    background-image: linear-gradient(rgb(31, 31, 31), #121212);
+    background-color: #121212;
     flex:1;
     border-radius: 1rem;
     overflow:auto;
+    padding:0 1.5rem 0 1.5rem;
 }
 .music-player{
     background-color:black;
@@ -70,7 +71,7 @@ a{
     align-items:center;
 }
 .lib-option img{
-height:1.25 rem;
+height:1.25rem;
 width:1.25rem;
 }
 .icons{
@@ -118,6 +119,7 @@ width:1.25rem;
     justify-content:space-between;
     align-items:center;
     padding:1rem 0 1rem 0;
+    z-index:10;
     
 }
 
@@ -141,4 +143,52 @@ width:1.25rem;
     .hide{
         display:none;
     }
+}
+.card{
+    background-color: #232323;
+    width:150px;
+    border-radius:0.5rem ;
+    padding:0.79rem;
+    margin-left:1.5rem;
+    margin-top: 1rem;
+}
+.card-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+.card-img{
+    width:100%;
+    border-radius:0.5rem ;
+
+}
+.card-title{
+font-weight:600;
+}
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+.footer{
+    height:250px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.line{
+    width:90%;
+    height:50%;
+    border-top:1px solid white;
+    opacity:0.4;
+}
+.music-player{
+    display:flex;
+}
+.album{
+    width:25%;
+}
+.player{
+    width:50%;
+}
+.controls{
+    width:25%;
 }
