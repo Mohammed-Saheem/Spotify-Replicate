@@ -270,3 +270,88 @@ margin-bottom: 5px;
     width: 1.6rem;
     margin-top: 9px;
 }
+.controls{
+    /* background-color: #1bd760; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls_icon1{
+    height: 45px;
+    opacity: 0.75;
+
+}
+.controls_icon2{
+    height: 45px;
+    opacity: 0.75;
+
+    /* height: 3rem;
+    width: 3rem; */
+}
+.controls_icon3{
+    /* height: 2rem;
+    width: 1.5rem; */
+    height: 24px;
+opacity: 0.5;
+}
+.controls_icon4{
+    height: 18px;
+    /* width:1.5rem; */
+    margin-left: 32px;
+    opacity: 0.5;
+
+}
+.controls_icon5{
+    height: 2.75rem;
+    /* width: 2.75rem; */
+    opacity: 0.75;
+}
+.controls_icon5:hover{
+    opacity: 1;
+
+}
+/* .progress-bar2::-webkit-slider-runnable-track{
+    appearance: none;
+
+    background-color: #797979;
+    border-radius: 100px;
+    height:0.25rem;
+}
+.progress-bar2:-webkit-slider-thumb{
+    appearance: none;
+    opacity: 0;
+    height:1px;
+    width: 1px;
+    
+} */
+.progress-bar2 {
+    -webkit-appearance: none;
+    width: 25%;
+    height: 0.25rem;
+    border-radius: 100px;
+    background: linear-gradient(to right, white 50%, #797979 50%);
+    outline: none;
+  }
+  
+  /* Hide thumb */
+  .progress-bar2::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: none;
+  }
+  .progress-bar2::-moz-range-thumb {
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: none;
+  }
+  .controls_icon{
+    margin-left: 0.5rem;
+
+  }
+  .controls_icon:hover{
+    opacity: 1;
+  }
